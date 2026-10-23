@@ -5,7 +5,7 @@ import { COMPANY } from '@/utils/constants'
 export default function PrivacyPolicy() {
   return (
     <>
-      <SeoHead title="Privacy Policy" description="Read the privacy policy of Annai Packers & Movers." />
+      <SeoHead title="Privacy Policy" description="Read the privacy policy of Annai Relocations." />
       <PageHero title="Privacy Policy" breadcrumb={[{ label: 'Privacy Policy' }]} />
 
       <section className="py-24">

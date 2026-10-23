@@ -6,6 +6,7 @@ import PageHero from '@/components/common/PageHero'
 import Button from '@/components/common/Button'
 import { FAQS } from '@/data/faq'
 import { COMPANY } from '@/utils/constants'
+import { getContactHref, isWaMe } from '@/utils/contactLinks'
 
 export default function Faq() {
   const faqs = FAQS
@@ -37,7 +38,7 @@ export default function Faq() {
     <>
       <SeoHead
         title="FAQ"
-        description="Answers to frequently asked questions about Annai Packers & Movers' packing, moving and relocation services."
+        description="Answers to frequently asked questions about Annai Relocations' packing, moving and relocation services."
       />
       <PageHero
         title="Frequently Asked Questions"

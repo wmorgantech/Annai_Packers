@@ -8,7 +8,7 @@ export default function Gallery() {
     <>
       <SeoHead
         title="Gallery"
-        description="Browse photos of Annai Packers & Movers in action — packing, loading, transportation and safe delivery."
+        description="Browse photos of Annai Relocations in action — packing, loading, transportation and safe delivery."
       />
       <PageHero
         title="Our Gallery"

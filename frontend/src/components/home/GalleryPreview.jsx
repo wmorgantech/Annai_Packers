@@ -23,7 +23,7 @@ export default function GalleryPreview() {
               >
                 <img
                   src={img.url}
-                  alt={img.caption || 'Annai Packers & Movers gallery'}
+                  alt={img.caption || 'Annai Relocations gallery'}
                   className="h-full w-full object-cover transition-transform duration-500 hover:scale-110"
                   loading="lazy"
                 />

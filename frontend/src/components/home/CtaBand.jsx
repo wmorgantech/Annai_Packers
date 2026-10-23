@@ -15,7 +15,7 @@ export default function CtaBand() {
             Ready to Plan Your Move?
           </h3>
           <p className="mt-2 max-w-lg text-brand-100">
-            Get a free, no-obligation quote from our team today and experience a stress-free relocation.
+            Get a free, no-obligation quote today from our team of affordable packers and movers in India and experience a stress-free relocation.
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-4">

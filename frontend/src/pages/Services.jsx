@@ -9,7 +9,7 @@ export default function Services() {
     <>
       <SeoHead
         title="Services"
-        description="Explore Annai Packers & Movers' full range of services: household shifting, office relocation, vehicle transport, warehousing and more."
+        description="Explore Annai Relocations' full range of services: household shifting, office relocation, vehicle transport, warehousing and more."
       />
       <PageHero
         title="Our Services"

@@ -31,10 +31,10 @@ export default function About() {
     <>
       <SeoHead
         title="About Us"
-        description="Learn about Annai Packers & Movers — our story, mission and the trained team behind thousands of safe relocations."
+        description="Learn about Annai Relocations — our story, mission and the trained team behind thousands of safe relocations."
       />
       <PageHero
-        title="About Annai Packers & Movers"
+        title="About Annai Relocations"
         subtitle="Fifteen years of building trust, one move at a time."
         breadcrumb={[{ label: 'About Us' }]}
         compact
@@ -45,7 +45,7 @@ export default function About() {
           <div data-aos="fade-right">
             <img
               src={storyImg}
-              alt="Annai Packers & Movers team at work"
+              alt="Annai Relocations team at work"
               className="w-full rounded-3xl object-cover shadow-card"
             />
           </div>
@@ -61,9 +61,10 @@ export default function About() {
               logistics company serving households and businesses across the country.
             </p>
             <p className="mt-4 text-base leading-relaxed text-brand-700/80">
-              Today, our trained crews, modern fleet and dedicated support team handle everything from
-              single-room shifts to large-scale office relocations and international moves &mdash; always
-              with the same commitment to safety and transparency that we started with.
+              Today, our trained crews, modern fleet and dedicated support team deliver reliable moving
+              services in India, from single-room shifts to large-scale office relocations and
+              international moves &mdash; always with the same commitment to safety and transparency that
+              we started with.
             </p>
           </div>
         </div>

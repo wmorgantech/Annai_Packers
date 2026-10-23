@@ -5,7 +5,7 @@ export const TESTIMONIALS = [
     location: 'Chennai',
     rating: 5,
     message:
-      'Annai Packers & Movers handled our 3 BHK relocation flawlessly. Every item arrived without a scratch, and the crew was punctual and courteous throughout.',
+      'Annai Relocations handled our 3 BHK relocation flawlessly. Every item arrived without a scratch, and the crew was punctual and courteous throughout.',
     isFeatured: true,
   },
   {

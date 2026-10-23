@@ -6,9 +6,9 @@ const ADDRESS = '17/1, Devi Poorani Nagar, Kalapatti, Coimbatore – 641048'
 const MAP_ADDRESS = 'Devi Poorani Nagar, Kalapatti, Coimbatore - 641048, Tamil Nadu, India'
 
 export const COMPANY = {
-  name: 'Annai Packers & Movers',
-  shortName: 'Annai Packers',
-  tagline: 'Safe. Secure. Stress-Free.',
+  name: 'Annai Relocations',
+  shortName: 'Annai Relocations',
+  tagline: 'Best Packers and Movers in India',
   taglineItems: [
     'House Hold & Office Shifting',
     'Industrial Shifting',

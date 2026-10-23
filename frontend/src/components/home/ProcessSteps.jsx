@@ -9,7 +9,7 @@ export default function ProcessSteps() {
         <SectionHeading
           eyebrow="Our Process"
           title="How We Move You, Step by Step"
-          description="A streamlined process designed to remove the guesswork and stress from your relocation."
+          description="Our streamlined process delivers the best relocation services in India by removing the guesswork and stress from your move."
           light
         />
 

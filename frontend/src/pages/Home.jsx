@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <SeoHead
-        title="Home"
-        description="Annai Packers & Movers offers professional household shifting, office relocation, vehicle transportation, warehousing and international moving services."
+        title="Best Packers and Movers in India"
+        description="Annai Relocations offers professional household shifting, office relocation, vehicle transportation, warehousing and international moving services."
       />
       <Hero />
       <TrustBar />

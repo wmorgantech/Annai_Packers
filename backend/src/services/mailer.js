@@ -69,7 +69,7 @@ async function sendMail({ to, subject, html, replyTo }) {
 function sendEnquiryNotification(enquiry) {
   return sendMail({
     to: mail.to,
-    subject: `📩 New Contact Enquiry – Annai Packers & Movers`,
+    subject: `📩 New Contact Enquiry – Annai Relocations`,
     html: enquiryAdminTemplate(enquiry),
     replyTo: enquiry.email,
   })
@@ -78,7 +78,7 @@ function sendEnquiryNotification(enquiry) {
 function sendEnquiryConfirmation(enquiry) {
   return sendMail({
     to: enquiry.email,
-    subject: 'We received your enquiry — Annai Packers & Movers',
+    subject: 'We received your enquiry — Annai Relocations',
     html: enquiryCustomerTemplate(enquiry),
   })
 }
@@ -86,7 +86,7 @@ function sendEnquiryConfirmation(enquiry) {
 function sendQuoteNotification(quote) {
   return sendMail({
     to: mail.to,
-    subject: `📦 New Quote Request Received – Annai Packers & Movers`,
+    subject: `📦 New Quote Request Received – Annai Relocations`,
     html: quoteAdminTemplate(quote),
     replyTo: quote.email,
   })
@@ -95,7 +95,7 @@ function sendQuoteNotification(quote) {
 function sendQuoteConfirmation(quote) {
   return sendMail({
     to: quote.email,
-    subject: 'Your quote request — Annai Packers & Movers',
+    subject: 'Your quote request — Annai Relocations',
     html: quoteCustomerTemplate(quote),
   })
 }

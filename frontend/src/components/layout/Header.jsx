@@ -76,7 +76,7 @@ export default function Header() {
         <Link to="/" className="flex items-center">
           <img
             src="/logo.webp"
-            alt="Annai Packers & Movers"
+            alt="Annai Relocations"
             className="h-11 w-auto border-0 bg-transparent align-middle outline-none sm:h-12"
           />
         </Link>

@@ -5,7 +5,7 @@ import { COMPANY } from '@/utils/constants'
 export default function TermsOfService() {
   return (
     <>
-      <SeoHead title="Terms of Service" description="Read the terms of service for using Annai Packers & Movers." />
+      <SeoHead title="Terms of Service" description="Read the terms of service for using Annai Relocations." />
       <PageHero title="Terms of Service" breadcrumb={[{ label: 'Terms of Service' }]} />
 
       <section className="py-24">

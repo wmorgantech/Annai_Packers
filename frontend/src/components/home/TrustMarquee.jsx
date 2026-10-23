@@ -19,7 +19,7 @@ export default function TrustMarquee() {
   return (
     <section className="border-y border-brand-100 bg-white py-12">
       <div
-        className="marquee-wrap relative [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
+        className="marquee-wrap relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
         data-aos="fade-up"
       >
         <div className="marquee-track flex w-max gap-4">

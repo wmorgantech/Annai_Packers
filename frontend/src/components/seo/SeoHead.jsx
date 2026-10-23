@@ -11,9 +11,26 @@ function setMeta(name, content, attr = 'name') {
   el.setAttribute('content', content)
 }
 
+const SITE_URL = 'https://annairelocations.shoppingsto.com'
+
+function setCanonical(href) {
+  let el = document.head.querySelector('link[rel="canonical"]')
+  if (!el) {
+    el = document.createElement('link')
+    el.setAttribute('rel', 'canonical')
+    document.head.appendChild(el)
+  }
+  el.setAttribute('href', href)
+}
+
 export default function SeoHead({ title, description, image }) {
   useEffect(() => {
-    if (title) document.title = `${title} | Annai Packers & Movers`
+    // Canonical is the current route on the canonical domain (no query/hash, no trailing slash except root).
+    const path = window.location.pathname.replace(/\/+$/, '')
+    const url = `${SITE_URL}${path || '/'}`
+    setCanonical(url)
+    setMeta('og:url', url, 'property')
+    if (title) document.title = `${title} | Annai Relocations`
     setMeta('description', description)
     setMeta('og:title', title, 'property')
     setMeta('og:description', description, 'property')

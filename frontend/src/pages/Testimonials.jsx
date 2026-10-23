@@ -9,7 +9,7 @@ export default function Testimonials() {
     <>
       <SeoHead
         title="Testimonials"
-        description="Read what customers say about their moving experience with Annai Packers & Movers."
+        description="Read what customers say about their moving experience with Annai Relocations."
       />
       <PageHero
         title="Customer Testimonials"

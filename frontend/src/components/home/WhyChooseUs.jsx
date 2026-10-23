@@ -11,7 +11,7 @@ export default function WhyChooseUs() {
           <div className="relative">
             <img
               src={chooseUsImg}
-              alt="Annai Packers & Movers professional staff"
+              alt="Annai Relocations professional staff"
               className="aspect-[4/5] w-full max-w-md rounded-3xl object-cover shadow-card"
             />
             <div className="absolute -bottom-6 -right-4 rounded-2xl bg-white p-6 shadow-card sm:-right-8">
@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
           <SectionHeading
             eyebrow="Why Choose Us"
             title="Built on Trust, Delivered with Care"
-            description="We combine trained manpower, modern equipment and transparent processes to make every move stress-free."
+            description="As trusted packers and movers, we combine trained manpower, modern equipment and transparent processes to make every move stress-free."
             align="left"
           />
 

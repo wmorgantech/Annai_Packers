@@ -13,7 +13,7 @@ export const SERVICES = [
     id: 'household-shifting',
     title: 'Household Shifting',
     slug: 'household-shifting',
-    shortDesc: 'Safe, careful relocation of your entire home — from single rooms to full villas.',
+    shortDesc: 'Best home shifting services in India — safe, careful relocation of your entire home, from single rooms to full villas.',
     description:
       'Our household shifting service covers every step of your move: pre-move survey, professional packing with premium materials, secure loading, insured transportation, and unpacking at your new home. Every item is labelled and handled by trained staff to ensure nothing is damaged in transit.\n\nWhether you are moving a 1 BHK apartment or a large independent house, our team plans the move around your schedule and budget, with transparent, itemised pricing and no hidden charges.',
     icon: 'Home',

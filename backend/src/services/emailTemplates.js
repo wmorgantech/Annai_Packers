@@ -43,7 +43,7 @@ function layout({ heading, intro, rowsHtml, badges = [], nextSteps = [], footerN
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light" />
   <meta name="supported-color-schemes" content="light" />
-  <title>Annai Packers &amp; Movers</title>
+  <title>Annai Relocations</title>
   <style>
     @media (max-width: 620px) {
       .email-card { width: 100% !important; border-radius: 0 !important; }
@@ -69,7 +69,7 @@ function layout({ heading, intro, rowsHtml, badges = [], nextSteps = [], footerN
               <img
                 src="cid:annai_logo"
                 width="220"
-                alt="Annai Packers & Movers"
+                alt="Annai Relocations"
                 class="email-logo"
                 style="display:inline-block;width:220px;max-width:70%;height:auto;"
               />
@@ -129,7 +129,7 @@ function layout({ heading, intro, rowsHtml, badges = [], nextSteps = [], footerN
             <td class="email-section" style="padding:24px 28px 28px;">
               <div style="height:1px;background:rgba(13,44,70,0.08);margin:8px 0 18px;"></div>
               <div style="font-size:11.5px;color:${BRAND.muted};text-align:center;line-height:1.7;">
-                &copy; ${year} Annai Packers &amp; Movers<br/>
+                &copy; ${year} Annai Relocations<br/>
                 Coimbatore &bull; Tamil Nadu &bull; India
               </div>
             </td>
@@ -147,7 +147,7 @@ function enquiryCustomerTemplate(enquiry) {
   return layout({
     heading: `Hi ${enquiry.name}, we've received your enquiry`,
     intro:
-      "Thank you for contacting Annai Packers &amp; Movers. Our team will review your message and get back to you within 24 hours.",
+      "Thank you for contacting Annai Relocations. Our team will review your message and get back to you within 24 hours.",
     badges: ['Insured handling', 'Professional crew', 'Fast support'],
     rowsHtml: [
       row('Subject', enquiry.subject),
@@ -179,7 +179,7 @@ function quoteCustomerTemplate(quote) {
   return layout({
     heading: `Hi ${quote.name}, your quote request is in`,
     intro:
-      "Thanks for requesting a quote from Annai Packers &amp; Movers. Here's a summary of what you shared — our team will follow up shortly with a transparent, itemised estimate.",
+      "Thanks for requesting a quote from Annai Relocations. Here's a summary of what you shared — our team will follow up shortly with a transparent, itemised estimate.",
     badges: ['No hidden charges', 'GPS-tracked fleet', 'Insured transit'],
     rowsHtml: [
       row('Moving From', quote.movingFrom),
@@ -236,7 +236,7 @@ function quoteAdminTemplate(quote) {
   return layout({
     heading: 'New Quote Request Received',
     intro:
-      'A new quotation request has been submitted through the Annai Packers &amp; Movers website. Please review the customer details below and contact the customer as soon as possible.',
+      'A new quotation request has been submitted through the Annai Relocations website. Please review the customer details below and contact the customer as soon as possible.',
     rowsHtml,
     footerNote:
       'Please contact the customer as soon as possible to provide a quotation and schedule the relocation.',

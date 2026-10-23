@@ -51,7 +51,7 @@ export default function Hero() {
           <motion.img
             key={src}
             src={src}
-            alt="Annai Packers & Movers relocation service"
+            alt="Annai Relocations moving service"
             initial={false}
             animate={{ opacity: active === i ? 1 : 0 }}
             transition={{ duration: 1.2, ease: 'easeInOut' }}
@@ -79,7 +79,7 @@ export default function Hero() {
           variants={itemVariants}
           className="max-w-2xl text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl"
         >
-          Packing & Moving, <span className="text-accent-400">Made Effortless.</span>
+          Best Packers and Movers <span className="text-accent-400">in India</span>
         </motion.h1>
 
         <motion.p
@@ -90,8 +90,9 @@ export default function Hero() {
         </motion.p>
 
         <motion.p variants={itemVariants} className="mt-4 max-w-xl text-lg leading-relaxed text-brand-100">
-          {COMPANY.tagline} From homes to offices, across the city or across the world &mdash; our trained
-          professionals handle every move with precision and care.
+          Safe, secure and stress-free moves with professional packers and movers in India. From homes to
+          offices, across the city or across the world &mdash; our trained professionals handle every move
+          with precision and care.
         </motion.p>
 
         <motion.div variants={itemVariants} className="mt-10 flex flex-wrap gap-4">

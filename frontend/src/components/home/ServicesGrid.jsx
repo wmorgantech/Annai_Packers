@@ -10,7 +10,7 @@ export default function ServicesGrid() {
         <SectionHeading
           eyebrow="What We Offer"
           title="Comprehensive Moving & Logistics Services"
-          description="From a single room to an entire office, our end-to-end solutions are tailored to move anything, anywhere, safely."
+          description="Looking for packers and movers in India? From a single room to an entire office, our end-to-end solutions are tailored to move anything, anywhere, safely."
         />
 
         <div className="mt-16">

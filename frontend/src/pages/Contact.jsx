@@ -21,7 +21,7 @@ export default function Contact() {
     <>
       <SeoHead
         title="Contact Us"
-        description="Get in touch with Annai Packers & Movers for enquiries or a free moving quote. We respond within 24 hours."
+        description="Get in touch with Annai Relocations for enquiries or a free moving quote. We respond within 24 hours."
       />
       <PageHero
         title="Contact Us"
@@ -71,7 +71,7 @@ export default function Contact() {
 
             <div className="mt-6 overflow-hidden rounded-2xl border border-brand-100 shadow-soft">
               <iframe
-                title="Annai Packers & Movers Location"
+                title="Annai Relocations Location"
                 src={COMPANY.mapEmbedUrl}
                 width="100%"
                 height="260"
